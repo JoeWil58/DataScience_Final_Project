@@ -10,4 +10,5 @@ Final project for Advanced Data Science (CSCI 4022). We are attempting to use K-
   
 ### Qualitative Results  
   Although we attempted to create clusters using both k-means clustering and Gaussian mixture models, both methods failed to create meaningful era clusters. Most clusters were made up of teams that spanned many years, making them mostly indistinguishable from other clusters. Ideally, we would have seen clusters of teams from years that largely do not overlap with other clusters.  
+  
   Teams from the deadball era did get clustered together somewhat more effectively than other teams, though. We believe this is due to the fact that the deadball era is one of the only time periods characterised specifically by performance and style of play. We could see a significant dip in hits and power in that era, which was captured nicely by our dataset. Other eras, though, were created along more historical boundaries. The integration era, for example, is defined by ending segregation in professional baseball, which was not directly apparent in our feature-set. 
